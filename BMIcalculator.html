@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
+   
 </head>
 <link rel="stylesheet" href="BMIcalculator.css">
 
 <body>
 
-    <form action="/submit" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+    <form id="card">
+        <h2>Check your BMI</h2>
+        <p>Enter your weight and height below to check your BMI result</p>
+        <label for="weight">Put your weight in here (KG):</label>
+        <input type="text" id="weight" name="weight" placeholder="60" required>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+        <label for="height">And your height in here (CM):</label>
+        <input type="height" id="height" name="height" placeholder="167" required>
 
-        <button type="submit">Submit</button>
+        <button type="submit">Calculate BMI</button>
     </form>
-    
+    <h3 id="hasil"></h3>
+    <script src="BMIcalculator.js"></script>
 </body>
+
 </html>
