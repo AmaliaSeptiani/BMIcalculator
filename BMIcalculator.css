@@ -1,13 +1,14 @@
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
 }
 form {
-    width: 50vw;
-    height: 50vh;
+    width: 30vw;
+    height: 3 0vh;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -34,7 +35,7 @@ input {
 }
 
 button {
-    width: 100%;
+    width: 135px;
     padding: 10px;
     background-color: #7a4caf;
     color: white;

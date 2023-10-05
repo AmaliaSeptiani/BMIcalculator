@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
+   
 </head>
 <link rel="stylesheet" href="BMIcalculator.css">
 
 <body>
 
-    <form action="/submit" method="post">
+    <form id="card">
         <h2>Check your BMI</h2>
         <p>Enter your weight and height below to check your BMI result</p>
         <label for="weight">Put your weight in here (KG):</label>
@@ -20,6 +21,8 @@
 
         <button type="submit">Calculate BMI</button>
     </form>
-    
+    <h3 id="hasil"></h3>
+    <script src="BMIcalculator.js"></script>
 </body>
+
 </html>
